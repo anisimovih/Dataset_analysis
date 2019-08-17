@@ -1,2 +1,8 @@
-# Dataset_analysis
- Test task from FutureComes
+Тестовое задание по анализу 4 датасетов. Разработка производилась в Microsoft Visual Studio.
+
+Код - dataset_analysis.cpp
+Отчет - Отчет Анисимов А.С..docx
+
+Важные примечания:
+1) Функция delete переименована в delete_.
+2) Каждая структура, содержащая данные из файла dataset1.log занимает около 7ГБ оперативной памяти.
