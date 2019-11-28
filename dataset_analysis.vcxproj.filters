@@ -13,17 +13,41 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Storages">
+      <UniqueIdentifier>{694de494-0308-401c-b654-1a107d665676}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Src\Storages\AbstractStorage.h">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Storages\Array_storage.h">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Storages\Avl_tree_storage.h">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Storages\Map_storage.h">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tests.h">
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="Src\Storages\Array_storage.cpp">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Storages\Avl_tree_storage.cpp">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Storages\Map_storage.cpp">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="dataset_analysis.cpp">
+    <ClCompile Include="Src\Tests.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
